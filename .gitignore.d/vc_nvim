@@ -52,4 +52,5 @@
 !/.config/nvim/lua/tex
 !/.config/nvim/.stylua.toml
 !/.gitignore.d/vc_nvim
-!/.local/share/applications/neovim.desktop
+!/.local/share/applications/nvim.desktop
+!/.local/share/icons/nvim.png
