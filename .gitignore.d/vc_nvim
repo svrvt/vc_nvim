@@ -4,7 +4,8 @@
 !/.config/bob/config.json
 !/.config/mr
 !/.config/mr/available.d
-!/.config/mr/available.d/vc_nvim
+!/.config/mr/available.d/vc
+!/.config/mr/available.d/vc/vc_nvim
 !/.config/nvim
 !/.config/nvim/init.lua
 !/.config/nvim/LICENSE
