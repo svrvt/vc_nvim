@@ -1,0 +1,8 @@
+
+[$HOME/code/forks/nvim-rafi]
+checkout =
+      git clone https://github.com/svrvt/nvim-rafi.git
+      git remote add upstream https://github.com/rafi/vim-config
+link = ln -svfn $PWD ~/.config/nvim-rafi
+
+# vim: ft=ini syntax=sh
