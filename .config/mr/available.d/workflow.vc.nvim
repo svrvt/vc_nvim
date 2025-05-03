@@ -4,7 +4,7 @@ checkout = vcsh clone https://github.com/svrvt/vc_nvim.git
 [$HOME/.config/nvim-rafi]
 checkout =
       git clone https://github.com/svrvt/nvim-rafi.git &&
-      git remote add upstream https://github.com/rafi/vim-config
-link = ln -svfn $PWD $HOME/code/edit/nvim-rafi.link
+      git -C $HOME/.config/nvim-rafi remote add upstream https://github.com/rafi/vim-config
+link = ln -sfn $PWD $HOME/code/edit/nvim-rafi.link
 
 # vi: ft=ini syntax=bash
